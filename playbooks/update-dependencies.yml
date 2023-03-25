@@ -1,0 +1,10 @@
+---
+- name: Update instance
+  hosts: target-hosts
+  become: true
+  become_method: su
+  tasks:
+    - name: Update package cache
+      apt:
+        update_cache: yes
+

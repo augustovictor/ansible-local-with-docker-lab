@@ -23,5 +23,4 @@ roles/**
 *.gzip
 *.tgz
 
-
-.Session
+Session.vim

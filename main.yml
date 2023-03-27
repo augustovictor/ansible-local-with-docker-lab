@@ -1,2 +1,2 @@
 ---
-- import_playbook: update-dependencies.yml
+- import_playbook: playbooks/update-dependencies.yml

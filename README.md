@@ -16,3 +16,7 @@ Folder structure
 ├── roles # External roles repository
 └── vars
 ```
+
+# Execution instructions
+1. Make sure docker is running;
+1. On root folder run `make run`
